@@ -75,6 +75,7 @@ p {
 .smallfont {
     font-size: 13px;
     font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
 .education {
     display: flex;
@@ -108,10 +109,9 @@ ul {
   margin-left: 10px;
   margin-top: 3px;
 }
-.name, .profile, .experience, .skills {
+.name, .profile, .skills {
   width: 400px;
   height: 200px;
-  border: 2px solid $textcolor2;
 }
 .bigfont {
   font-size: 40px;
@@ -138,4 +138,34 @@ ul {
   font-size: 13px;
   margin-top: 15px;
   font-family: 'Poppins', sans-serif;
+}
+.experience {
+  width: 400px;
+  height: 300px;
+display: flex;
+}
+.leftside, .rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.weight {
+  font-weight: 500;
+}
+.weight600 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.boxx {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.boxx div {
+  width: 60%;
+  height: 40%;
+}
+.lastflex {
+  display: flex;
 }
